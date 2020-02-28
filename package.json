@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Sample API to send emails through MailGun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MarshallCB",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.3",
+    "mailgun-js": "^0.22.0"
+  }
+}

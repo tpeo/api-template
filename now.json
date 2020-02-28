@@ -1,0 +1,20 @@
+{
+  "env": {
+    "SENDGRID_API_KEY": "@sendgrid-api-key"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers" : [
+        {
+          "key" : "Access-Control-Allow-Origin",
+          "value" : "*"
+        },
+        {
+            "key":"Access-Control-Allow-Headers",
+            "value":"*"
+        }
+      ]
+    }
+  ]
+}
